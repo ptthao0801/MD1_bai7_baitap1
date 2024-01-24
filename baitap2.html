@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="inputcel" type="number">
+<button onclick="m1()" type="submit">Nhập</button>
+</body>
+</html>
+<script>
+    function m1() {
+        let cel = document.getElementById("inputcel").value
+        let fa = (cel/5)*9 + 32
+        document.write(cel+" độ C = "+fa+" độ F")
+    }
+
+</script>
