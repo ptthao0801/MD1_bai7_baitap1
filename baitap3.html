@@ -5,6 +5,12 @@
     <title>Title</title>
 </head>
 <body>
-
+    <p id="a"></p>
 </body>
 </html>
+<script>
+    let nhapr = prompt("Nhập r")
+    let r = parseInt(nhapr)
+    let dientich = Math.PI * Math.pow(r,2)
+    document.getElementById("a").innerHTML = "Diện tích là: " + dientich
+</script>
